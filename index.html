@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Online Screen Recorder - Capture Your Screen Easily</title>
+		<meta name="description" content="A free and easy-to-use online screen recorder. Capture your entire screen or a specific window directly in your browser. No installation required.">
+		<meta name="keywords" content="screen recorder, online screen recorder, free screen recorder, record screen, capture screen, browser screen recorder">
+		<meta name="robots" content="index, follow">
+		<link rel="canonical" href="https://example.com/">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:title" content="Online Screen Recorder - Capture Your Screen Easily">
+		<meta property="og:description" content="A free and easy-to-use online screen recorder. Capture your entire screen or a specific window directly in your browser. No installation required.">
+		<meta property="og:image" content="https://example.com/path/to/your/image.jpg">
+		<meta property="og:url" content="https://example.com/">
+		<meta property="og:type" content="website">
+		
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Online Screen Recorder - Capture Your Screen Easily">
+		<meta name="twitter:description" content="A free and easy-to-use online screen recorder. Capture your entire screen or a specific window directly in your browser. No installation required.">
+		<meta name="twitter:image" content="https://example.com/path/to/your/image.jpg">
+		
+		
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<div id="recorder-container">
+			<h1>Online Screen Recorder</h1>
+			<p>Click "Start Recording" to begin capturing your screen.</p>
+			<video id="recordedVideo" controls poster="placeholder.png"></video>
+			<div id="options">
+				<label>
+					Record Audio:
+					<input type="checkbox" id="recordAudio">
+				</label>
+			</div>
+			<div id="controls">
+				<button id="startBtn">Start Recording</button>
+				<button id="stopBtn" disabled>Stop Recording</button>
+				<a id="downloadLink" style="display: none">Download Recording</a>
+			</div>
+			<p id="recordingStatus" style="display: none;"></p>
+			<div id="recordingTimer"></div>
+		</div>
+		
+		<script src="./script.js"></script>
+	</body>
+</html>
